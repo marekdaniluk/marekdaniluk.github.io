@@ -1,0 +1,70 @@
+body {
+	background-color: #DCDCDC;
+}
+h1 {
+	margin: 0px 0px 16px 0px;
+	font-size: 28px;
+	text-transform: uppercase;
+	line-height: 1;
+}
+img {
+	border-radius: 50%;
+	float: left;
+	margin-right: 16px;
+	margin-bottom: 16px;
+}
+a:link, a:visited {
+	color: #FF4500;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+a:hover {
+	text-decoration: underline;
+}
+.page {
+	width: 50%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+}
+.text {
+	font-family: "Lucida Console", monospace;
+	font-size: 16px;
+	text-align: justify;
+	background-color: #FFFAFA;
+	padding: 32px;
+	color: #696969;
+	letter-spacing: 1px;
+	line-height: 1.5;
+}
+.header {
+	font-family: "Lucida Console", monospace;
+	font-size: 14px;
+	text-align: left;
+	padding-bottom: 8px;
+	color: #696969;
+	letter-spacing: 1px;
+}
+.header a {
+	font-weight: bolder;
+	margin-right: 24px;
+}
+.footer-left {
+	font-family: "Lucida Console", monospace;
+	font-size: 14px;
+	text-align: left;
+	padding-top: 8px;
+	color: #696969;
+	letter-spacing: 1px;
+	float: left;
+}
+.footer-right {
+	font-family: "Lucida Console", monospace;
+	font-size: 14px;
+	text-align: right;
+	padding-top: 8px;
+	color: #696969;
+	letter-spacing: 1px;
+}
