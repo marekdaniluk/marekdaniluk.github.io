@@ -15,8 +15,22 @@ h2 {
 img {
 	border-radius: 50%;
 	float: left;
+	margin-left: 0px;
 	margin-right: 16px;
 	margin-bottom: 16px;
+}
+img.left {
+	border-radius: 0%;
+	margin: 16px;
+	width: 192px;
+	height: 108px;
+}
+img.right {
+	border-radius: 0%;
+	float: right;
+	margin: 16px;
+	width: 192px;
+	height: 108px;
 }
 a:link, a:visited {
 	color: #FF4500;
