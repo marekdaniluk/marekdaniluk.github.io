@@ -27,12 +27,24 @@ a:link, a:visited {
 a:hover {
 	text-decoration: underline;
 }
-.page {
-	padding: 16px;
-	width: 50%;
-	position: absolute;
-	left: 50%;
-	transform: translateX(-50%);
+@media (orientation: landscape) {
+	.page {
+		padding: 16px;
+		width: 50%;
+		position: absolute;
+		left: 50%;
+		transform: translateX(-50%);
+	}
+}
+
+@media (orientation: portrait) {
+	.page {
+		padding: 16px;
+		width: 90%;
+		position: absolute;
+		left: 50%;
+		transform: translateX(-50%);
+	}
 }
 .text {
 	font-family: "Lucida Console", monospace;
