@@ -23,12 +23,6 @@ img.projects {
     max-width: 100%;
     max-height: 100%;
 }
-img.mini_projects {
-	border-radius: 0%;
-	margin-left: 16px;
-    max-width: 25%;
-    max-height: 25%;
-}
 a:link, a:visited {
 	color: #FF4500;
 	text-decoration: none;
