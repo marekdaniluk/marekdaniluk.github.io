@@ -1,27 +1,53 @@
+@import url('https://fonts.googleapis.com/css?family=Lora|Outfit');
 body {
 	background-color: #DCDCDC;
 }
 h1 {
 	margin: 0px 0px 16px 0px;
-	font-size: 28px;
+	font-family: "Outfit", Verdana;
+	font-size: 32px;
+	font-weight: 600;
 	text-transform: uppercase;
 	line-height: 1;
 }
 h2 {
-	margin: 0px 0px 8px 16px;
-	font-size: 22px;
+	margin: 0px 0px 16px 16px;
+	font-family: "Outfit", Verdana;
+	font-size: 24px;
+	font-weight: 600;
 	line-height: 1;
 }
+h3 {
+	margin: 32px;
+	font-family: "Outfit", Verdana;
+	font-size: 24px;
+	font-weight: 500;
+	line-height: 1.75;
+}
 img {
-	border-radius: 50%;
 	float: left;
+}
+img.rounded {
+	border-radius: 50%;
 	margin-right: 16px;
 	margin-bottom: 16px;
 }
 img.projects {
-	border-radius: 0%;
-    max-width: 100%;
-    max-height: 100%;
+    max-width: 60%;
+    max-height: 60%;
+	margin-bottom: 16px;
+	margin: 16px auto;
+	float: none;
+	display: block;
+}
+iframe {
+	margin: 0px auto;
+	width:560px;
+	height: 315px;
+	display:block;
+}
+ul {
+	margin-left: 16px;
 }
 a:link, a:visited {
 	color: #FF4500;
@@ -53,14 +79,16 @@ a:hover {
 }
 .text {
 	display: flow-root;
-	font-family: "Lucida Console", monospace;
-	font-size: 16px;
-	text-align: justify;
+	font-family: "Lora", monospace;
+	font-size: 19px;
 	background-color: #FFFAFA;
 	padding: 32px;
 	color: #696969;
-	letter-spacing: 1px;
-	line-height: 1.5;
+	letter-spacing: 3px;
+	line-height: 1.75;
+}
+.text a {
+	font-weight: 400;
 }
 .cv_section {
 	display: flow-root;
@@ -78,31 +106,31 @@ a:hover {
 	height: 48px;
 }
 .header {
-	font-family: "Lucida Console", monospace;
-	font-size: 14px;
+	font-family: "Outfit", Verdana;
+	font-size: 20px;
 	text-align: left;
-	padding-bottom: 8px;
+	padding-bottom: 16px;
 	color: #696969;
-	letter-spacing: 1px;
+	letter-spacing: 2px;
 }
 .header a {
 	font-weight: bolder;
 	margin-right: 24px;
 }
 .footer-left {
-	font-family: "Lucida Console", monospace;
-	font-size: 14px;
+	font-family: "Outfit", Verdana;
+	font-size: 20px;
 	text-align: left;
-	padding-top: 8px;
+	padding-top: 16px;
 	color: #696969;
-	letter-spacing: 1px;
+	letter-spacing: 2px;
 	float: left;
 }
 .footer-right {
-	font-family: "Lucida Console", monospace;
-	font-size: 14px;
+	font-family: "Outfit", Verdana;
+	font-size: 20px;
 	text-align: right;
-	padding-top: 8px;
+	padding-top: 16px;
 	color: #696969;
-	letter-spacing: 1px;
+	letter-spacing: 2px;
 }
