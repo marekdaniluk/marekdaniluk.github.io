@@ -7,9 +7,10 @@ html {
 	html {
 		font-size: 20px;
 	}
-	img {
+	.logo {
 		width: 160px;
 		height: 160px;
+		margin-right: 16px;
 	}
 	.text {
 		width: 50%;
@@ -37,9 +38,10 @@ html {
 	html {
 		font-size: 14px;
 	}
-	img {
+	.logo {
 		width: 96px;
 		height: 96px;
+		margin-right: 8px;
 	}
 	.text {
 		padding: 16px;
@@ -100,6 +102,10 @@ section {
 	margin: 0px;
 	scroll-margin-top: 48px;
 }
+.logo {
+	float: left;
+	margin-bottom: 16px;
+}
 .text {
 	font-family: "Lora", monospace;
 	font-size: 0.9rem;
@@ -133,14 +139,6 @@ iframe {
 	height: 315px;
 	display: block;
 	border: none;
-}
-img {
-	float: left;
-	margin-right: 16px;
-	margin-bottom: 16px;
-}
-img.rounded {
-	border-radius: 50%;
 }
 a:link, a:visited {
 	color: #0077b6;
