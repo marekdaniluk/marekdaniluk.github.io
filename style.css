@@ -21,6 +21,9 @@ html {
 	.cv_section {
 		padding-left: 32px;
 	}
+	.cv_section svg {
+		margin-right: 16px;
+	}
 	section {
 		padding: 24px;
 		letter-spacing: 2px;
@@ -40,7 +43,10 @@ html {
 		height: 48px;
 	}
 	.cv_section {
-		padding-left: 16px;
+		padding-left: 8px;
+	}
+	.cv_section svg {
+		margin-right: 8px;
 	}
 	section {
 		padding: 0px;
@@ -147,7 +153,6 @@ a:hover {
 }
 .cv_section svg {
 	float: left;
-	margin-right: 16px;
 	margin-bottom: 16px;
 }
 .cv_skill {
