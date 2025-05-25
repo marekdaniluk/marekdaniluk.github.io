@@ -25,7 +25,7 @@ html {
 		height: 64px;
 	}
 	.cv_section {
-		padding-left: 32px;
+		padding: 0px 32px;
 	}
 	.cv_section svg {
 		margin-right: 16px;
@@ -55,7 +55,7 @@ html {
 		height: 48px;
 	}
 	.cv_section {
-		padding-left: 8px;
+		padding: 0px 8px;
 	}
 	.cv_section svg {
 		margin-right: 8px;
@@ -127,17 +127,15 @@ h2 {
 	font-size: 1.2rem;
 	font-weight: 600;
 	line-height: 1;
+	clear: right;
 }
 h3 {
-	margin: 16px;
-	font-size: 1.1rem;
 	font-weight: 500;
-	line-height: 1.75;
+	font-size: 0.9rem;
+	letter-spacing: 4px;
 }
 iframe {
 	margin: 0px auto;
-	width: 560px;
-	height: 315px;
 	display: block;
 	border: none;
 }
@@ -157,10 +155,10 @@ a:hover {
 .cv_section {
 	display: flow-root;
 	padding-bottom: 16px;
+	clear: right;
 }
 .cv_section svg {
 	float: left;
-	margin-bottom: 16px;
 }
 .cv_skill {
 	background-color: #E8F7FC;
@@ -169,7 +167,7 @@ a:hover {
 	width: 192px;
 	height: 192px;
 }
-.more {
+summary {
 	cursor: pointer;
 	color: #0075B3;
 	text-decoration: none;
@@ -178,28 +176,7 @@ a:hover {
 	float: right;
 	transition: transform 0.2s;
 }
-.more:hover {
+summary:hover {
 	color: #00b4d8;
 	text-decoration: underline;
-}
-.toggle-popup {
-	display: none;
-}
-.popup {
-	position: fixed;
-	inset: 0;
-	display: none;
-	backdrop-filter: blur(3px);
-	z-index: 999;
-}
-#rs:checked ~ .rs,
-#slyville:checked ~ .slyville,
-#wlbe:checked ~ .wlbe,
-#dl2dt:checked ~ .dl2dt,
-#dl2sh:checked ~ .dl2sh,
-#brixar:checked ~ .brixar,
-#mrio:checked ~ .mrio,
-#f3d:checked ~ .f3d,
-#kra_imp:checked ~ .kra_imp {
-	display: flex;
 }
