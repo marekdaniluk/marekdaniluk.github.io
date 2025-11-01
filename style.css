@@ -13,7 +13,7 @@ html, body {
 }
 a {
 	color: #D49B54;
-	font-weight: 400;
+	font-weight: 700;
 	text-decoration: none;
 	text-transform: uppercase;
 	transition: color 0.2s;
@@ -39,8 +39,7 @@ footer {
 	background: #000;
 	bottom: 0;
 	display: flex;
-	font-size: 1em;
-	height: 4em;
+	height: 4rem;
 	justify-content: center;
 	left: 0;
 	position: fixed;
@@ -60,26 +59,24 @@ iframe {
 	width: 100%;
 }
 main {
-	padding-bottom: 4em;
+	padding-bottom: 4rem;
 }
 nav {
 	align-items: center;
 	background: #000000;
 	display: flex;
+	font-size: 1.25em;
 	gap: 1.5em;
-	height: 4em;
+	height: 4rem;
 	justify-content: center;
 	left: 0;
 	position: fixed;
 	top: 0;
 	width: 100%;
 }
-nav a {
-	font-weight: 700;
-}
 section {
-	margin: 4em 0 0 0;
-	min-height: calc(100vh - 8em);
+	margin: 4rem 0 0 0;
+	min-height: calc(100vh - 8rem);
 }
 section h1 {
 	scroll-margin-top: 2em;
