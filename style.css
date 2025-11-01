@@ -7,8 +7,8 @@ html, body {
 	font-weight: 200;
 	height: 100%;
 	line-height: 1.5;
-	margin: 0px;
-	padding: 0px 10%;
+	margin: 0;
+	padding: 0 10em;
 	scroll-behavior: smooth;
 }
 a {
@@ -24,10 +24,9 @@ a:hover {
 a svg {
 	display: inline-block;
 	fill: #D49B54;
-	height: 32px;
-	margin-right: 12px;
+	margin-right: 1em;
 	transition: fill 0.2s;
-	width: 32px;
+	width: 2em;
 }
 a svg:hover {
 	fill: #C74B50;
@@ -40,8 +39,8 @@ footer {
 	background: #000;
 	bottom: 0;
 	display: flex;
-	font-size: 0.9rem;
-	height: 48px;
+	font-size: 1em;
+	height: 4em;
 	justify-content: center;
 	left: 0;
 	position: fixed;
@@ -56,14 +55,18 @@ iframe {
 	aspect-ratio: 16/9;
 	display: block;
 	margin: auto;
-	width: 50%;
+	max-width: 33em;
+	width: 100%;
+}
+main {
+	padding-bottom: 4em;
 }
 nav {
 	align-items: center;
 	background: #000000;
 	display: flex;
-	gap: 24px;
-	height: 64px;
+	gap: 1.5em;
+	height: 4em;
 	justify-content: center;
 	left: 0;
 	position: fixed;
@@ -71,43 +74,35 @@ nav {
 	width: 100%;
 }
 nav a {
-	color: #D49B54;
 	font-weight: 700;
-	text-decoration: none;
-	text-transform: uppercase;
-	transition: color 0.2s;
-}
-nav a:hover {
-	color: #C74B50;
 }
 section {
-	margin: 0px 0px 0px 0px;
-	padding: 64px 0px 48px 0px;
-	min-height: calc(100vh - 112px);
+	margin: 4em 0 0 0;
+	min-height: calc(100vh - 8em);
 }
 section h1 {
-	scroll-margin-top: 64px;
+	scroll-margin-top: 2em;
 }
 span {
 	background-color: #000000;
-	padding: 0px 4px;
+	padding: 0 0.2em;
 }
 svg {
 	display: block;
 	fill: #F0E3E3;
 	margin: auto;
-	width: 50%;
+	max-width: 33em;
+	width: 100%;
 }
 .cv_section {
 	clear: right;
-	margin-bottom: 32px;
+	margin-bottom: 2em;
 }
 .cv_section svg {
 	float: left;
-	height: 64px;
-	margin-right: 12px;
+	margin-right: 1em;
 	transition: fill 0.2s;
-	width: 64px;
+	width: 4em;
 }
 .experience {
 	column-count: 2;
@@ -120,7 +115,7 @@ svg {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
-	padding: 12px;
+	padding: 1em;
 	transition: background-color 0.2s;
 }
 .project:hover {
@@ -131,30 +126,23 @@ svg {
 }
 .projects {
 	display: grid;
-	grid-gap: 8px;
-	grid-template-columns: 1fr 1fr 1fr;
-	margin-bottom: 56px;
+	grid-gap: 0.5em;
+	grid-template-columns: repeat(auto-fit, minmax(18em, 1fr));
+	margin-bottom: 1em;
 }
 .logo {
 	float: left;
-	height: 224px;
-	margin-bottom: 48px;
-	margin-right: 48px;
-	width: 224px;
+	margin-bottom: 3em;
+	margin-right: 3em;
+	width: 13em;
 }
 @media (orientation: portrait) {
 	html, body {
 		font-size: 15px;
-		padding: 0px 5%;
+		padding: 0 1.5em;
 	}
 	h1 {
 		text-align: center;
-	}
-	iframe {
-		width: 75%;
-	}
-	svg {
-		width: 75%;
 	}
 	.logo {
 		display: block;
@@ -163,8 +151,5 @@ svg {
 	}
 	.experience {
 		column-count: 1;
-	}
-	.projects {
-		grid-template-columns: auto;
 	}
 }
